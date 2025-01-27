@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Welcome to Raima's World!"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Raima Islam"
+description              : &description "An aspiring data scientist who loves art, music, cooking, learning about cultures, religion, philosophy and trying out new cuisines. Apart from my many interests, I have worked in research for the past 3 years focusing on Bengali NLP, Human-Computer Interaction, LLMs and sometimes Computer Vision along with Bioinformatics. I am currently a Master's student at Harvard University studying Computational Science and Engineering."
+url                      : https://raima2001.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -26,9 +26,9 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Harvard University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "raima_islam@g.harvard.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
