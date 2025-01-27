@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "raima.png"
   name             : "Raima Islam"
   pronouns         : # example: "she/her"  
   bio              : "An aspiring data scientist who loves art, music, cooking, learning about cultures, religion, philosophy and trying out new cuisines. Apart from my many interests, I have worked in research for the past 3 years focusing on Bengali NLP, Human-Computer Interaction, LLMs and sometimes Computer Vision along with Bioinformatics. I am currently a Master's student at Harvard University studying Computational Science and Engineering."
