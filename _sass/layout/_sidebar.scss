@@ -94,8 +94,11 @@
   }
 
   img {
-    max-width: 175px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -124,7 +127,7 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 }
 .sidebar .author__name {
