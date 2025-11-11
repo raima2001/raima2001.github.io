@@ -1,0 +1,141 @@
+/* ==========================================================================
+   MATCHA & ANIME AESTHETIC DECORATIONS
+   ========================================================================== */
+
+/* Matcha leaf decoration for headers */
+.page__title::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  background: linear-gradient(135deg, #81a684 0%, #5d7f60 100%);
+  border-radius: 0 50% 50% 50%;
+  transform: rotate(-45deg);
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+/* Tea cup decoration for News & Updates */
+h2:contains("News"), h2:contains("Updates") {
+  position: relative;
+}
+
+/* Matcha swirl decoration for section headers */
+.archive__item-title::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 8px;
+  background: radial-gradient(circle, #a3c4a6 0%, #81a684 100%);
+  border-radius: 50%;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+/* Decorative corner elements */
+.page__inner-wrap::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 40px;
+  height: 40px;
+  border-left: 2px solid #d4e5c8;
+  border-top: 2px solid #d4e5c8;
+  opacity: 0.5;
+}
+
+.page__inner-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  width: 40px;
+  height: 40px;
+  border-right: 2px solid #d4e5c8;
+  border-bottom: 2px solid #d4e5c8;
+  opacity: 0.5;
+}
+
+.page__inner-wrap {
+  position: relative;
+}
+
+/* Anime-style sparkle accent */
+.author__name::after {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-left: 8px;
+  background: linear-gradient(45deg, #b8d4a5 0%, #a3c4a6 100%);
+  border-radius: 50%;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+/* Matcha steam decoration for sidebar */
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(circle, rgba(129, 166, 132, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: gentle-float 4s ease-in-out infinite;
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+  50% {
+    transform: translateY(-10px);
+    opacity: 0.5;
+  }
+}
+
+/* Tea leaf accent for footer */
+.page__footer::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 0 auto 20px;
+  background: linear-gradient(90deg, transparent 0%, #b8d4a5 50%, transparent 100%);
+}
+
+/* Remove decorative dots from author links - keeping them clean */
+
+/* Semi-transparent overlay for readability */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(250, 249, 245, 0.85);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Subtle pattern overlay */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(129, 166, 132, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(163, 196, 166, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: -1;
+}
